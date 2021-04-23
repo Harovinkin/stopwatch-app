@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Harovinkin/stopwatch-app/static/css/main.28ca974d.chunk.css",
+    "main.js": "/Harovinkin/stopwatch-app/static/js/main.0451a660.chunk.js",
+    "main.js.map": "/Harovinkin/stopwatch-app/static/js/main.0451a660.chunk.js.map",
+    "runtime-main.js": "/Harovinkin/stopwatch-app/static/js/runtime-main.26590d6f.js",
+    "runtime-main.js.map": "/Harovinkin/stopwatch-app/static/js/runtime-main.26590d6f.js.map",
+    "static/js/2.0ed02a88.chunk.js": "/Harovinkin/stopwatch-app/static/js/2.0ed02a88.chunk.js",
+    "static/js/2.0ed02a88.chunk.js.map": "/Harovinkin/stopwatch-app/static/js/2.0ed02a88.chunk.js.map",
+    "static/js/3.a8ffb4ba.chunk.js": "/Harovinkin/stopwatch-app/static/js/3.a8ffb4ba.chunk.js",
+    "static/js/3.a8ffb4ba.chunk.js.map": "/Harovinkin/stopwatch-app/static/js/3.a8ffb4ba.chunk.js.map",
+    "index.html": "/Harovinkin/stopwatch-app/index.html",
+    "static/css/main.28ca974d.chunk.css.map": "/Harovinkin/stopwatch-app/static/css/main.28ca974d.chunk.css.map",
+    "static/js/2.0ed02a88.chunk.js.LICENSE.txt": "/Harovinkin/stopwatch-app/static/js/2.0ed02a88.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26590d6f.js",
+    "static/js/2.0ed02a88.chunk.js",
+    "static/css/main.28ca974d.chunk.css",
+    "static/js/main.0451a660.chunk.js"
+  ]
+}
