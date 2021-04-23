@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { interval, Subject } from "rxjs";
-import { takeUntil, map, filter, buffer, debounceTime, repeatWhen, tap } from "rxjs/operators";
+import { takeUntil, map, filter, buffer, debounceTime, repeatWhen } from "rxjs/operators";
 
 const START = 'start';
 const STOP ='stop';
@@ -25,9 +25,7 @@ const start$ = action$.pipe(filter(action => action === START));
 
 const countUp$ = interval(1000).pipe(
 takeUntil(stop$),
-takeUntil(doubleClick$.pipe(
-  tap(console.log)
-)),
+takeUntil(doubleClick$),
 repeatWhen(() => start$),
 )
 
